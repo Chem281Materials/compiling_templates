@@ -26,6 +26,3 @@ void CustomVector<T>::push_back(T& value) {
   size++;
 }
 
-template class CustomVector<int>;
-template class CustomVector<double>;
-
