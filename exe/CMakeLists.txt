@@ -9,6 +9,6 @@ add_executable(templatetest src/main.cpp)
 # Specify the C++ standard
 target_compile_features(templatetest PUBLIC cxx_std_14)
 
-# Link against the MPIWrapper library
+# Link against the CustomVector library
 find_package(CustomVector 1.0 REQUIRED)
 target_link_libraries(templatetest PUBLIC CustomVector::CustomVector)
